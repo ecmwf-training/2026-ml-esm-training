@@ -7,3 +7,4 @@ einops
 netCDF4
 torch-geometric
 anemoi-graphs
+nbformat
