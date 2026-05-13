@@ -3,3 +3,7 @@ matplotlib
 scikit-learn
 torch
 torchvision
+einops
+netCDF4
+torch-geometric
+anemoi-graphs
