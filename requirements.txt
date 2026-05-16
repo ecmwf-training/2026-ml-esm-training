@@ -8,3 +8,5 @@ netCDF4
 torch-geometric
 anemoi-graphs
 nbformat
+ipywidgets
+pytorch_lightning
