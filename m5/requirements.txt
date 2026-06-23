@@ -1,0 +1,12 @@
+anemoi-inference[huggingface]==0.8.3
+anemoi-models==0.11.2
+anemoi-utils==0.4.35.post3
+torch==2.7.0
+torch-geometric==2.6.1
+earthkit-regrid==0.5.1
+ecmwf-opendata==0.3.29
+earthkit-data<1.0.0
+numpy
+matplotlib
+cartopy
+# flash-attn is installed separately in the notebook (system-dependent; see install cell)
