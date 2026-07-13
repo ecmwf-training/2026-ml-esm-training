@@ -2,3 +2,11 @@ m*/utils.py
 m*/object-store*
 .ipynb_checkpoints
 */.ipynb_checkpoints/
+
+# m7 generated artifacts (dataset build, graphs, generated config, saved states)
+m7/data/
+m7/*.graph
+m7/recipe.yaml
+m7/configs/my_ens_config.yaml
+m7/inputstate-*.npz
+m*/__pycache__/

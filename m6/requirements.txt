@@ -1,0 +1,13 @@
+# Data handling
+xarray==2026.7.0
+numpy==2.4.6
+zarr==3.1.6
+gcsfs==2026.7.0          # anonymous access to the WeatherBench 2 data on Google Cloud Storage
+
+# Plotting
+matplotlib==3.11.0
+cartopy==0.25.0
+
+# Forecast evaluation
+scoringrules==0.10.0     # scoring rules for probabilistic forecasts
+scores==2.5.0            # diagnostic/calibration plots
