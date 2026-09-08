@@ -1,0 +1,15 @@
+# Data handling
+numpy==2.5.3
+pandas==3.0.5
+gdown==6.2.0             # download the Mesogeos CSVs from Google Drive
+
+# Plotting
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Machine learning
+scikit-learn==1.9.0      # metrics, scaling, train/test utilities
+torch==2.14.0            # Transformer model + training
+
+# Explainable AI
+captum==0.9.0            # Integrated Gradients attributions

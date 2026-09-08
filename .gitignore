@@ -10,3 +10,7 @@ m7/recipe.yaml
 m7/configs/my_ens_config.yaml
 m7/inputstate-*.npz
 m*/__pycache__/
+
+# c3 downloaded datasets (fetched manually by the user; too large to track)
+c3/*/data/
+c3/*/__pycache__/
