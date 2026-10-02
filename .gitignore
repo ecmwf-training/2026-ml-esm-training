@@ -14,3 +14,4 @@ m*/__pycache__/
 # c3 downloaded datasets (fetched manually by the user; too large to track)
 c3/*/data/
 c3/*/__pycache__/
+c3/*/.venv/
