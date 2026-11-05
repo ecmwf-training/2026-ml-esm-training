@@ -1,0 +1,24 @@
+# c3/m9 — Multidata causal discovery for tropical cyclone intensity forecasting
+# Verified on Python 3.12 (CPU only; no GPU needed).
+
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+tqdm
+ipywidgets      # lets tqdm render progress bars inside notebooks
+
+# Causal discovery (M-PC / PC-stable)
+tigramite>=5.2,<5.4
+# tigramite.models imports networkx but does not declare it as a dependency.
+# Colab/Kaggle ship networkx by default; a clean environment does not.
+networkx
+# imported by the upstream CausalSHIPS util/models/train_PC1.py helper
+xarray
+
+# Downstream forecasting models and benchmarks
+scikit-learn
+
+# Bonus section: SHAP attributions
+shap

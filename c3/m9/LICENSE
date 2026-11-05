@@ -1,0 +1,48 @@
+MIT License
+
+Copyright (c) 2026 Tom Beucler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+NOTE ON THIS DIRECTORY
+--------------------------------------------------------------------------
+
+The notebooks in c3/m9 are derivative works of `M_Causal_MOOC.ipynb` from
+
+    https://github.com/tbeucler/2026_ECMWF_MOOC
+
+which is distributed under the MIT License reproduced above. The MIT notice
+is retained here as required. Changes made for this course are listed in
+c3/m9/NOTICE.md.
+
+The rest of this repository is licensed under Apache-2.0 (see ../../LICENSE).
+
+The notebooks additionally *download at runtime* (they do not redistribute)
+helper modules and the preprocessed fold data from
+
+    https://github.com/saranya8989/2025_CausalSHIPS
+
+archived as Ganesh S., S., & Tam, F. I.-H. (2025). saranya8989/2025_CausalSHIPS:
+Causal SHIPS v1.0. Zenodo. https://doi.org/10.5281/zenodo.17242382,
+released under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+The workflow figure in assets/causal_workflow.png is Figure 1 of
+Ganesh et al. (2026), Weather and Forecasting, 41(7), 1359-1375,
+https://doi.org/10.1175/WAF-D-25-0208.1, reproduced with attribution.
