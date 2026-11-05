@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+shap>=0.48      # multiclass Explanation API used in 01_classic_xai
+palmerpenguins  # Palmer Penguins dataset for 01_classic_xai
+cmocean         # diverging colour map for 02_aifs_sensitivities
+plotly          # interactive diagrams and map in 02_aifs_sensitivities
